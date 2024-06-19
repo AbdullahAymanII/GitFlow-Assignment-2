@@ -9,4 +9,10 @@ public class Main {
             System.out.print(i + " ");
         }
     }
+    public static void printChars(char[] chars) {
+        for (int i = 1; i <chars.length; i++) {
+            System.out.print(chars[i]+ " ");
+        }
+    }
+
 }
