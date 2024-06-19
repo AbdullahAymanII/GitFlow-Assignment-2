@@ -9,6 +9,7 @@ public class Main {
 
         System.out.println("release commit-1");
         System.out.println("release commit-2");
+        System.out.println("Development finished its process");
 
     }
     public static void printIntegers(int n) {
