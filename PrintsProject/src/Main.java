@@ -3,6 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         printIntegers(7);
+
+        char[]chars={'a','b'};
+        printChars(chars);
     }
     public static void printIntegers(int n) {
         for (int i = 1; i <= n; i++) {
