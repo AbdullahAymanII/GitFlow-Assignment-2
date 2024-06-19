@@ -12,4 +12,9 @@ public class Main {
             System.out.println("i = " + i);
         }
     }
+    public void printIntegers(int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.print(i + " ");
+        }
+    }
 }
