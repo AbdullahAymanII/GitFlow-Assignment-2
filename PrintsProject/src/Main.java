@@ -3,10 +3,21 @@
 public class Main {
     public static void main(String[] args) {
         printIntegers(7);
+
+        char[]chars={'a','b'};
+        printChars(chars);
+        System.out.println("hotfix commit");
+        System.out.println("hotfix commit-2");
     }
     public static void printIntegers(int n) {
         for (int i = 1; i <= n; i++) {
             System.out.print(i + " ");
         }
     }
+    public static void printChars(char[] chars) {
+        for (int i = 1; i <chars.length; i++) {
+            System.out.print(chars[i]+ " ");
+        }
+    }
+
 }
