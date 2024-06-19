@@ -6,6 +6,8 @@ public class Main {
 
         char[]chars={'a','b'};
         printChars(chars);
+
+        System.out.println("release commit");
     }
     public static void printIntegers(int n) {
         for (int i = 1; i <= n; i++) {
